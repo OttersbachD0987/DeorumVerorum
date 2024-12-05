@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Perks</title>
+	<link rel="stylesheet" href="../../../Assets/Stylesheets/Stylesheet.css">
+</head>
+<body class="deorum_background">
+	<h1>Perks</h1>
+	<nav class="nav_bar_fancy">
+		<a href="../../index.html" class="nav_link_fancy">Home</a> &nbsp;
+		<a href="../../projects.html" class="nav_link_fancy">Projects</a> &nbsp;
+		<a href="../index.html" class="nav_link_fancy">A Simple Roguelike</a> &nbsp;
+	</nav><br>
+	<nav class="nav_bar_fancy">
+		<a href="./bosses.html" class="nav_link_fancy">Bosses</a> &nbsp;
+		<a href="./enemies.html" class="nav_link_fancy">Enemies</a> &nbsp;
+		<a href="./equinoxes.html" class="nav_link_fancy">Equinoxes</a> &nbsp;
+		<a href="./factions.html" class="nav_link_fancy">Factions</a> &nbsp;
+		<a href="./perks.html" class="nav_link_fancy">Perks</a> &nbsp;
+		<a href="./phases.html" class="nav_link_fancy">Phases</a> &nbsp;
+	</nav>
+	<hr>
+	<table class="thin_table">
+		<tr>
+			<th style="width: 3em">Name</th>
+			<th style="width: 3em">Max Level</th>
+			<th style="width: 3em">Phases</th>
+			<th style="width: 8em">Prerequisites</th>
+			<th style="width: 12em">Description</th>
+		</tr>
+		<tr>
+			<td id="reaper">Reaper</td>
+			<td style="text-align: center;">1</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">3 projectiles that rotate around the player and deal (15) damage.</td>
+		</tr>
+		<tr>
+			<td id="bone-shield">Bone Shield</td>
+			<td style="text-align: center;">3</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">(2 + perk level) projectiles that rotate around the player and deal (10) damage and have (40) health, respawning after (2.5) seconds.</td>
+		</tr>
+		<tr>
+			<td id="life-steal">Life Steal</td>
+			<td style="text-align: center;">25</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">Every time you kill an enemy you heal ()% of your max health.</td>
+		</tr>
+		<tr>
+			<td id="berserkers-rage">Berserkers Rage</td>
+			<td style="text-align: center;">5</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;"><a href="#life-steal" class="unlink">Life Steal</a> (2+)</td>
+			<td style="text-align: center;font-size: 80%;">Every time you kill an enemy you heal ()% of your max health.</td>
+		</tr>
+		<tr>
+			<td id="regeneration">Regeneration</td>
+			<td style="text-align: center;">30</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">Every (3) seconds the player heals (perk level) health.</td>
+		</tr>
+		<tr>
+			<td id="electric">Electric</td>
+			<td style="text-align: center;">3</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">Every (2.5) seconds damage all enemies within a (2.4 + 0.1 * perk level)m radius for (10) damage.</td>
+		</tr>
+		<tr>
+			<td id="chain-lightning">Chain Lightning</td>
+			<td style="text-align: center;">4</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;"><a href="#electric" class="unlink">Electric</a> (3+)</td>
+			<td style="text-align: center;font-size: 80%;">Every (8) seconds fire a bolt of chain lightning with a reach of (7 + 0.5 * perk level)m that bounces (1 + perk level) times and does (10 + 5 * perk level) damage.</td>
+		</tr>
+		<tr>
+			<td id="grave-pact">Grave Pact</td>
+			<td style="text-align: center;">4</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">(5 + 5 * perk level)% chance to ressurect slain enemies as thralls, with (50)% of their original health, (95)% of their original speed, (110)% of their original attack speed, and (75)% of their original damage, lasting (7 + 3 * perk level) seconds before exploding and dealing (10) damage in a (5)m radius.</td>
+		</tr>
+		<tr>
+			<td id="temporal-backlash">Temporal Backlash</td>
+			<td style="text-align: center;">1</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">Upon reaching 1 HP, the player is automatically restored to 50% health but at the cost of all their perks for the current run, can only activate once.</td>
+		</tr>
+		<tr>
+			<td id="fateweavers-gamble">Fateweaver's Gamble</td>
+			<td style="text-align: center;">1</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">Once per run reroll all available perks, but increase enemy stats by (10)%.</td>
+		</tr>
+		<tr>
+			<td id="stalwart">Stalwart</td>
+			<td style="text-align: center;">1</td>
+			<td style="text-align: center;">1+</td>
+			<td style="text-align: center;">None</td>
+			<td style="text-align: center;font-size: 80%;">Increases max hp by (100)%.</td>
+		</tr>
+		<tr style="height: 8em;">
+			<td id="as-above-so-below" class="in_gods_eyes"><div class="as_ordained">As Above So Below</div></td>
+			<td class="in_gods_eyes"><div class="as_ordained">1</div></td>
+			<td class="in_gods_eyes"><div class="as_ordained">3+</div></td>
+			<td class="in_gods_eyes"><div class="as_ordained">None</div></td>
+			<td class="in_gods_eyes"><div class="as_ordained">Quod est superius est sicut<br> quod inferius, et quod<br> inferius est sicut quod est<br> superius.</div></td>
+		</tr>
+	</table>
+</body>
+</html>
