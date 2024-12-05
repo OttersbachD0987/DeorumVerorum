@@ -39,3 +39,11 @@
   outline: solid black 1px;
   display: inline;
 }
+
+.thin-table tr {
+  outline: solid black 1px;
+}
+
+.thin-table td {
+  outline: solid black 1px;
+}
