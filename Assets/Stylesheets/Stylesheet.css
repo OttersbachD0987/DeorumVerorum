@@ -47,3 +47,8 @@
 .thin-table td {
   outline: solid black 1px;
 }
+
+.character-title {
+  font-style: italic;
+  text-indent: 1em;
+}
