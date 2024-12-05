@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.no-margins {
+.no-margin {
   margin: 0px;
 }
 
@@ -33,4 +33,9 @@
   outline: inset black 2px;
   background-color: #4F4F2A;
   margin: 4px;
+}
+
+.block-outline {
+  outline: solid black 1px;
+  display: inline;
 }
