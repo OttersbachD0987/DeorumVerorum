@@ -53,15 +53,21 @@
 
 .block-outline {
   outline: solid black 1px;
-  display: inline;
+  display: block;
 }
 
-.thin-table tr {
-  outline: solid black 1px;
+.thin-table {
+  border: inset rgb(22, 31, 41) 2px;
+  background-color: rgb(23, 31, 39);
 }
 
 .thin-table td {
-  outline: solid black 1px;
+  padding: 4px;
+  outline: solid rgb(19, 22, 22) 2px;
+}
+
+.thin-table th {
+  outline: dotted rgb(19, 22, 22) 1px;
 }
 
 .character-title {
@@ -79,4 +85,32 @@
 
 .deorum-background {
   background-color: #0e1925;
+}
+
+:root {
+  color: rgb(179, 179, 179);
+}
+
+.in-gods-eyes {
+  background-color: #5f0000;
+}
+
+@keyframes god-bounce {
+  0% {
+    scale: 100%;
+  }
+
+  100% {
+    scale: 95%;
+  }
+}
+
+.as-ordained {
+  color: red;
+  font: 16px Brush Script MT, Brush Script Std, cursive;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-name: god-bounce;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
