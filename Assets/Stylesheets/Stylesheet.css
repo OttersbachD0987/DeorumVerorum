@@ -28,6 +28,7 @@
   outline: inset black 2px;
   background-color: #1b4240;
   margin: 2px;
+  padding: 2px;
 }
 
 .fancy-nav-link {
@@ -35,7 +36,6 @@
   outline: inset black 2px;
   background-color: #3f4f4e;
   margin: 4px;
-  padding: 3px;
   text-decoration: inherit;
   color: inherit;
 }
