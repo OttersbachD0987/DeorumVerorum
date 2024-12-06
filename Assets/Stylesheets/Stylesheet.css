@@ -29,6 +29,8 @@
   background-color: #1b4240;
   margin: 2px;
   padding: 2px;
+  text-decoration: inherit;
+  color: inherit;
 }
 
 .fancy-nav-link {
