@@ -23,15 +23,23 @@
   border: solid black 1px;
 }
 
+.fancy-link {
+  display: inline-block;
+  outline: inset black 4px;
+  background-color: #2e5856;
+  padding: 4px;
+  font-size: 32px;
+}
+
 .fancy-nav-bar {
   display: block;
   outline: inset black 2px;
   background-color: #1b4240;
   margin: 2px;
-  padding: 2px;
+  padding: 4px;
   text-decoration: inherit;
   color: inherit;
-  width: 100%;
+  width: calc(100% - 1em);
 }
 
 .fancy-nav-link {
