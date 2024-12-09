@@ -6,16 +6,37 @@
 	<link rel="stylesheet" href="../../Assets/Stylesheets/Stylesheet.css">
 </head>
 <body class="deorum-background">
-	<h1 class="full_background">A Simple Roguelike</h1>
+	<h1 class="full-background">Feedback</h1>
 	<nav class="fancy-nav-bar">
 		<a href="../../index.html" class="fancy-nav-link">Home</a> &nbsp;
-		<a href="../about.html" class="fancy-nav-link">About</a> &nbsp;
+		<a href="../projects.html" class="fancy-nav-link">Projects</a> &nbsp;
 	</nav><br>
 	<nav class="fancy-nav-bar">
 		<a href="./index.html" class="fancy-nav-link">A Simple Roguelike</a> &nbsp;
 		<a href="./about.html" class="fancy-nav-link">About</a> &nbsp;
 		<a href="./feedback.html" class="fancy-nav-link">Feedback</a> &nbsp;
 	</nav>
+
+	<form style="background-color: rgb(15, 15, 22);color: white;width: 390px;padding-left: 5px;padding-right: 5px;padding-bottom: 5px;padding-top: 5px;border: black solid 5px;">
+		<label style="font-size: 32px">Feedback:</label><br><br>
+		<label for="fname">First Name:</label><br>
+		<input type="text" id="fname" name="fname"><br><br>
+		<label for="lname">Last Name:</label><br>
+		<input type="text" id="lname" name="lname"><br><br>
+		<label for="languages">Select what feedback you are giving:</label><br>
+		<select name="languages" id="languages">
+			<option value="perk">Perk</option>
+			<option value="enemy">Enemy</option>
+			<option value="boss">Boss</option>
+			<option value="faction">Faction</option>
+			<option value="phase">Phase</option>
+			<option value="equinox">Equinox</option>
+		</select><br><br>
+		<label for="comments">Feedback:</label><br>
+		<textarea id="comments" name="comments" rows="10" cols="50" style="background-color: rgb(18, 36, 34);"></textarea><br><br>
+		<input type="submit" value="Submit" style="background-color: rgb(63, 56, 56);">
+		<input type="reset" value="Reset" style="background-color: rgb(63, 56, 56);">
+	</form>
 
 </body>
 </html>
