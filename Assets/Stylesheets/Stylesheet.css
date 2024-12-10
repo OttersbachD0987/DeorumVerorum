@@ -159,3 +159,7 @@ audio.phase-theme::-webkit-media-controls-panel {
   border: black 2px ridge;
   outline: black 2px ridge;
 }
+
+.better-link {
+  font-size: 32px;
+}
