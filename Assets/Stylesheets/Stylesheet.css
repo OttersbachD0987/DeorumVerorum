@@ -136,6 +136,8 @@ li.removal::marker {
 audio.boss-theme::-webkit-media-controls-panel {
   background-color: #0f2025;
   color: #3f4f4e;
+  border: black 2px ridge;
+  outline: black 2px ridge;
 }
 
 .phase-theme {
@@ -145,4 +147,6 @@ audio.boss-theme::-webkit-media-controls-panel {
 audio.phase-theme::-webkit-media-controls-panel {
   background-color: #0f2025;
   color: #3f4f4e;
+  border: black 2px ridge;
+  outline: black 2px ridge;
 }
