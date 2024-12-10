@@ -114,3 +114,21 @@
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+.addition {
+  color: lightgreen;
+
+}
+
+li.addition::marker {
+  content: '+';
+}
+
+.removal {
+  color: crimson;
+
+}
+
+li.removal::marker {
+  content: '-';
+}
