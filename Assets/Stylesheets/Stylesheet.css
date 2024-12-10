@@ -134,18 +134,19 @@ li.removal::marker {
 }
 
 audio.boss-theme::-webkit-media-controls-panel {
-  background-color: #0f2025;
+  background-color: rgb(179, 179, 179);
   color: #3f4f4e;
   border: black 2px ridge;
   outline: black 2px ridge;
 }
 
 .phase-theme {
-  scale: 0.5;
+  transform: scale(1, 0.5);
+  transform-origin: bottom left;
 }
 
 audio.phase-theme::-webkit-media-controls-panel {
-  background-color: #0f2025;
+  background-color: rgb(179, 179, 179);
   color: #3f4f4e;
   border: black 2px ridge;
   outline: black 2px ridge;
