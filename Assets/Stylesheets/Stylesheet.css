@@ -132,3 +132,17 @@ li.addition::marker {
 li.removal::marker {
   content: '-';
 }
+
+audio.boss-theme::-webkit-media-controls-panel {
+  background-color: #0f2025;
+  color: #3f4f4e;
+}
+
+.phase-theme {
+  scale: 0.5;
+}
+
+audio.phase-theme::-webkit-media-controls-panel {
+  background-color: #0f2025;
+  color: #3f4f4e;
+}
