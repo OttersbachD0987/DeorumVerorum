@@ -141,8 +141,8 @@ audio.boss-theme::-webkit-media-controls-panel {
 }
 
 .phase-theme {
-  transform: scale(0.5) translate(calc(-100% + 150px), -35px);
-  transform-origin: bottom left;
+  transform: scale(0.5);
+  transform-origin: center left;
 }
 
 audio.phase-theme::-webkit-media-controls-panel {
