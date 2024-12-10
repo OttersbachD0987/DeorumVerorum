@@ -25,15 +25,18 @@
 
 .fancy-link {
   display: inline-block;
-  outline: inset black 4px;
-  background-color: #2e5856;
+  outline: outset black 4px;
+  background-color: rgb(46, 88, 86);
+  color: rgb(179, 179, 179);
   padding: 4px;
   font-size: 32px;
-  transition: background-color 2s ease-in-out;
+  transition: background-color, color 0.1s ease-in-out;
 }
 
 .fancy-link:hover {
-  background-color: #184240;
+  outline: inset black 4px;
+  background-color: rgb(26, 68, 66);
+  color: rgb(159, 159, 159);
 }
 
 .fancy-nav-bar {
