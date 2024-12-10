@@ -29,6 +29,11 @@
   background-color: #2e5856;
   padding: 4px;
   font-size: 32px;
+  transition: background-color 2s ease-in-out;
+}
+
+.fancy-link:hover {
+  background-color: #184240;
 }
 
 .fancy-nav-bar {
